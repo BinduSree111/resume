@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bindu Sree Chikile — Resume</title>
+  <meta name="description" content="Resume / portfolio of Bindu Sree Chikile — BCA Final Year student (Programming, Power BI, Python)." />
+  <style>
+    :root{
+      --bg:#e6f6ff;        /* page background (pale sky blue) */
+      --card:#dbefff;      /* inside cards (light blue) */
+      --accent:#2563eb; 
+      --muted:#475569; 
+      --glass: rgba(0,0,0,0.04);
+      --maxw:1000px; 
+      font-family: Inter, system-ui, windows, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+    *{box-sizing:border-box}
+    body {
+      margin:0;
+      background: var(--bg); /* pale sky blue */
+      color:#1e293b;
+      display:flex;
+      justify-content:center;
+      padding:32px;
+    }
+
+    .wrap{width:100%;max-width:var(--maxw)}
+    header{display:flex;align-items:center;margin-bottom:18px}
+    h1{margin:0;font-size:28px}
+    .sub{color:var(--muted);margin-top:6px}
+
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:20px}
+    main{background:var(--card);padding:22px;border-radius:14px;box-shadow:0 6px 18px rgba(0,0,0,0.08)}
+    aside{background:var(--card);padding:18px;border-radius:14px;align-self:start;box-shadow:0 4px 14px rgba(0,0,0,0.05)}
+
+    section{margin-bottom:18px}
+    h2{font-size:16px;margin:0 0 8px 0;color:#0f172a}
+    p{margin:0;color:#334155}
+    .muted{color:var(--muted)}
+
+    .contact{display:flex;flex-direction:column;gap:8px}
+    a.link{color:var(--accent);text-decoration:none}
+
+    .pill{display:inline-block;padding:6px 10px;border-radius:999px;background:var(--glass);color:#0f172a;font-size:13px;margin-right:8px;margin-top:6px}
+
+    ul{padding-left:16px;margin:6px 0}
+    li{margin-bottom:6px;color:#334155}
+
+    .skills{display:flex;flex-wrap:wrap;gap:8px}
+    .project{background:linear-gradient(180deg,rgba(0,0,0,0.02),transparent);padding:10px;border-radius:10px}
+
+    footer{margin-top:14px;color:var(--muted);font-size:13px}
+
+    /* responsive */
+    @media (max-width:880px){
+      .grid{grid-template-columns:1fr}
+      aside{order:2}
+      header{gap:12px}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div>
+        <h1>Bindu Sree Chikile</h1>
+        <div class="sub">BCA Final Year • Passionate about Software Development, Machine Learning</div>
+        <div class="muted" style="margin-top:6px">
+          Duddi Vaari Agraharam Street, Amalapuram • +91 94941 59175 • 
+          <a class="link" href="mailto:chikile.bindusree@gmail.com">chikile.bindusree@gmail.com</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="grid">
+      <main>
+        <section>
+          <h2>Summary</h2>
+          <p>Motivated and enthusiastic BCA Final Year student with a strong foundation in programming, data visualization, and problem-solving. Hands-on experience in Python, C, Power BI. Fast learner with good communication and presentation skills seeking opportunities to contribute to real-world projects.</p>
+        </section>
+
+        <section>
+          <h2>Technical Skills</h2>
+          <div class="skills">
+            <span class="pill">C</span>
+            <span class="pill">Python</span>
+            <span class="pill">SQL</span>
+            <span class="pill">Power BI</span>
+            <span class="pill">Microsoft Office</span>
+            <span class="pill">Data Visualization</span>
+          </div>
+        </section>
+
+        <section>
+          <h2>Projects</h2>
+          <div class="project">
+            <strong>Spam Email Detection</strong>
+            <div class="muted">Python • Machine Learning</div>
+            <p>Built a text-classification model to detect spam emails. Implemented preprocessing, feature extraction and classification to improve accuracy.</p>
+          </div>
+          <div style="height:8px"></div>
+          <div class="project">
+            <strong>Voters Turnout Dashboard</strong>
+            <div class="muted">Power BI</div>
+            <p>Designed an interactive dashboard showing voter turnout statistics with charts and KPIs to analyze demographic trends.</p>
+          </div>
+        </section>
+
+        <section>
+          <h2>Education</h2>
+          <ul>
+            <li><strong>BCA</strong> — Aditya Degree College, Amalapuram (July 2023 – Present). Expected Graduation: 2026</li>
+            <li><strong>Intermediate – BiPC</strong> — Sri Chaitanya Junior College, Amalapuram (June 2020 – March 2022)</li>
+            <li><strong>SSC (10th)</strong> — Sri Chaitanya Techno School, Amalapuram (June 2019 – March 2020)</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Certificates & Training</h2>
+          <ul>
+            <li>Introduction to C & C++ Programming — E-Learning Platform</li>
+            <li>Python Essentials — Cisco Networking Academy</li>
+            <li>Microsoft Azure (Short internship)</li>
+            <li>Machine learning and Artificial Intelligence based on python - Ulearn</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Achievements</h2>
+          <ul>
+            <li>District 1st in Painting (9th standard)</li>
+            <li>Best Presenter Award — Seminar presentation skills in BCA 1st Year</li>
+          </ul>
+        </section>
+      </main>
+
+      <aside>
+        <section>
+          <h2>Quick Info</h2>
+          <div class="contact">
+            <div><strong>Email:</strong> <a class="link" href="mailto:chikile.bindusree@gmail.com">chikile.bindusree@gmail.com</a></div>
+            <div><strong>Phone:</strong> +91 94941 59175</div>
+            <div><strong>Location:</strong> Amalapuram, India</div>
+          </div>
+        </section>
+
+        <section>
+          <h2>Languages</h2>
+          <div class="muted">English (Fluent)<br/>Telugu (Fluent)<br/>Hindi</div>
+        </section>
+
+        <section>
+          <h2>Interests</h2>
+          <div class="muted">Software development • Data analytics • Machine learning • Presentations</div>
+        </section>       
+      </aside>
+    </div>
+  </div>
+</body>
+</html>
